@@ -1,0 +1,42 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+dash = "*"
+pandas = "*"
+nox = "*"
+dash-bootstrap-components = "*"
+pyodbc = "*"
+python-dotenv = "*"
+python-dateutil = "*"
+gunicorn = "*"
+
+[dev-packages]
+pytest = "*"
+coverage = {extras = ["toml"], version = "*"}
+pytest-cov = "*"
+pytest-mock = "*"
+flake8 = "*"
+black = "*"
+flake8-import-order = "*"
+flake8-black = "*"
+flake8-bugbear = "*"
+flake8-bandit = "*"
+mypy = "*"
+pytype = "*"
+typeguard = "*"
+flake8-annotations = "*"
+flake8-docstrings = "*"
+darglint = "*"
+sphinx-rtd-theme = "*"
+sphinx-autodoc-typehints = "*"
+sphinx = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
