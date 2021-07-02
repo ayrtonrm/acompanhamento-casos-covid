@@ -2,3 +2,4 @@
 *.json
 *.geojson
 .idea/
+**/__pycache__/
